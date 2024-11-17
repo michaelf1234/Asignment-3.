@@ -5,16 +5,15 @@
 package money;
 
 /**
- *Task 2/part1-2
+ *Task 2/part1-2-3
  * 
  * @author Michael Fraschetti
  */
 public class Money {
-
-// The number of dollars 
 private long dollars; 
-// The number of cents 
 private long cents; 
+
+
 /** 
 Constructor 
 @param amount The amount in decimal format. 
@@ -117,6 +116,4 @@ public static void main(String[] args) {
 }
 }
 
-    
-    
 
