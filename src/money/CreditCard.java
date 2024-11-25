@@ -6,7 +6,7 @@ package money;
  * 
  * @author Michael Fraschetti
  */
-private  class Money {
+public  class Money {
 private long dollars, cents; 
 
 /** 
@@ -195,7 +195,6 @@ public static void main(String[] args) {
         System.out.println("\nCharging " + overLimitCharge);
         card.charge(overLimitCharge);
     }
-
 }
 
 
